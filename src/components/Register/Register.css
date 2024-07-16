@@ -1,0 +1,77 @@
+/* Center the form and align text to the left */
+#signformcomp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+.signformera {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff; /* Optional: Add a background color */
+}
+.form-check-input{
+    width: 100%;
+}
+.signformera label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.signformera .form-control {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.checkboxerea {
+    margin-bottom: 15px;
+}
+
+.checboxcheck .formcheck {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-check-input {
+    margin-right: 10px;
+
+}
+
+.btnera {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signbtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signbtn:hover {
+    background-color: #0056b3;
+}
+#gridCheck1{
+    margin-left: 150px;
+   
+}
+.form-check label{
+    margin-top: -23px;
+}

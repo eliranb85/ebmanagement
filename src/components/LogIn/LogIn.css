@@ -1,0 +1,75 @@
+#formcomp {
+    background-image: url('../../assistent/img3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    font-size: 20px;
+    font-weight: 600;
+}
+.loginField{
+    background-color: rgba(0, 0, 0, 0.24);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    padding: 5px 5px 5px 5px;
+    color:aliceblue;
+
+}
+.loginField input{
+    font-size: 20px;
+}
+.loginbtn{
+    background-color: rgb(201, 233, 153);
+    padding: 10px 15px 10px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    border-style: none;
+}
+.loginbtn:active{
+    background-color: rgb(146, 243, 0);
+    padding: 10px 15px 10px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.registerbtn{
+    background-color: rgb(235, 156, 83);
+    padding: 10px 15px 10px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    border-style: none;
+}
+.registerbtn:active{
+    background-color: rgb(238, 130, 30);
+    padding: 10px 15px 10px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btnera {
+    display: flex;
+    justify-content: space-between; /* Optional: Adjusts the space between the buttons */
+    padding-top: 10px;
+}
+
+.btnera .loginbtn, .btnera .registerbtn {
+    margin: 0 5px; /* Optional: Adds some margin between the buttons */
+}
+#msgerror{
+    padding: 0px 20px 0px 20px;
+    background-color: black;
+    color:red;
+}
