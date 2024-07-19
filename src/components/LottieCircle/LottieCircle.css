@@ -1,0 +1,23 @@
+.circle-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  transform-origin: center;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px; /* To center the circle in the container */
+  left: 40px; /* To center the circle in the container */
+}
+.lottie-circle{
+ overlay: 100px;
+}

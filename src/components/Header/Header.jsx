@@ -39,6 +39,9 @@ function Header() {
             <Link to="/register">Register</Link>
           </li>
           <li>
+            <Link to="/Card List">Card List</Link>
+          </li>
+          <li>
             <button id="logoutbtn" onClick={handleLogout} className="logoutbtn">Log Out</button>
           </li>
         </ul>
